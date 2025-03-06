@@ -41,7 +41,28 @@
 ### 系统配置示例
 #### 模型平台-接口类型
 > 1. ollama：http://127.0.0.1:11434
-> 2. openai：http://127.0.0.1:11434/v1
+> 2. openai：https://dashscope.aliyuncs.com/compatible-mode/v1
+
 #### 知识图谱-接口类型
 > 1. LightRAG：http://127.0.0.1:19621
-> 2. LightRAG_Multi：http://127.0.0.1:19621/new
+> 2. LightRAG_Multi：http://127.0.0.1:19621
+
+
+## 截图展示
+### 系统配置
+![系统配置](./docs/assets/系统配置.png)  
+### 模型管理
+![模型管理](./docs/assets/模型管理.png) 
+### 模型对话
+![模型对话](./docs/assets/模型对话.png)  
+### 图谱空间
+![图谱空间](./docs/assets/图谱空间.png)  
+### 图谱编辑
+![图谱编辑](./docs/assets/图谱编辑.png)  
+### 图谱展示
+![图谱展示](./docs/assets/图谱展示.png)
+
+
+## 相关文档
+### LightRAG-运行流程
+![LightRAG-运行流程](./docs/assets/LightRAG-运行流程.jpg)  

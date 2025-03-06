@@ -29,7 +29,7 @@
     "archiver": "^7.0.1",
     "axios": "^0.21.4",
     "cheerio": "^1.0.0",
-    "core-js": "^3.40.0",
+    "core-js": "^3.41.0",
     "crypto-js": "^4.2.0",
     "debug": "^4.4.0",
     "dotenv": "^8.6.0",
@@ -58,7 +58,7 @@
     "natural": "^8.0.1",
     "neo4j-driver": "^5.28.1",
     "ollama": "^0.5.14",
-    "openai": "^4.85.4",
+    "openai": "^4.86.1",
     "parameter": "^3.7.0",
     "pdf-parse": "^1.1.1",
     "pg": "^8.13.3",
@@ -87,7 +87,7 @@
     "@types/koa2-cors": "^2.0.5",
     "@types/mime-types": "^2.1.4",
     "@types/multer": "^1.4.12",
-    "@types/node": "^22.13.5",
+    "@types/node": "^22.13.8",
     "@types/parameter": "^3.6.7",
     "@types/pdf-parse": "^1.1.4",
     "@types/qs": "^6.9.18",
@@ -114,6 +114,12 @@
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.11",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js",
+      "nodemon"
+    ]
   }
 }
